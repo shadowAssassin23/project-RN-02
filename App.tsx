@@ -6,13 +6,15 @@ import {
   SafeAreaView,
 } from 'react-native';
 import FlatCards from './components/FlatCards';
+import ElevatedCards from './components/ElevatedCards';
 
 const App = () => {
   return (
     <SafeAreaView>
       <ScrollView>
-        <View style = {{padding:16}}>
-        <FlatCards />
+        <View style={{ padding: 16 }}>
+          <FlatCards />
+          <ElevatedCards />
         </View>
       </ScrollView>
     </SafeAreaView>
