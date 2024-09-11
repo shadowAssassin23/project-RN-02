@@ -4,7 +4,7 @@ import React from 'react'
 export default function FlatCards() {
     return (
         <View>
-            <Text style={styles.headingText}>Flat Cards</Text>
+            <Text style={styles.headingText}>FlatCards</Text>
             <View style={styles.container}>
                 <View style = {[styles.card,styles.cardOne]}>
                     <Text>Red</Text>
@@ -24,17 +24,17 @@ const styles = StyleSheet.create({
     headingText: {
         fontSize: 28,
         fontWeight: 'bold',
+        marginVertical:10,
     },
     container: {
         flex:1,
         flexDirection: 'row',
-        marginVertical: 10
+        flexGrow: 1,
     },
     card : {
         flex : 1,
         alignItems: 'center',
         justifyContent : 'center',
-        width: 100,
         height: 100,
         borderRadius: 10,
         margin:8

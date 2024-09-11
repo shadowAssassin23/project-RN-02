@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     headingText: {
         fontSize: 28,
         fontWeight: 'bold',
-        marginVertical:8
+        marginVertical:10,
     },
     container: {
         flex:1,
